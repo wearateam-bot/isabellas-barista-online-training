@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IsaBella’s Barista Online Training</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
+  <div class="app-container">
+    <header>
+      <h1>☕ IsaBella’s Barista Online Training</h1>
+      <p>From bean to bar — learn the craft with calm confidence.</p>
+    </header>
+
+    <section class="courses">
+
+      <div class="course-card">
+        <h2>Beginner</h2>
+        <p>Coffee history, origins, beans, and brewing basics.</p>
+        <button onclick="purchase('Beginner')">Start Brewing</button>
+      </div>
+
+      <div class="course-card locked">
+        <h2>Intermediate</h2>
+        <p>Espresso, milk science, and café workflow.</p>
+        <button disabled>Locked</button>
+      </div>
+
+      <div class="course-card locked">
+        <h2>Advanced</h2>
+        <p>Specialty coffee, latte art, and operations.</p>
+        <button disabled>Locked</button>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>© 2026 IsaBella’s Barista Online Training</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
