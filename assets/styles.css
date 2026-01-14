@@ -1,1 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(
+    rgba(60, 42, 33, 0.7),
+    rgba(60, 42, 33, 0.7)
+  ),
+  url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+  background-size: cover;
+  background-position: center;
+  color: #f5f1ec;
+}
 
+.app-container {
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.courses {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 25px;
+  width: 260px;
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+.course-card h2 {
+  margin-bottom: 10px;
+}
+
+.course-card button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #c9a26d;
+  color: #3c2a21;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.course-card button:hover {
+  background: #ddb892;
+}
+
+.locked {
+  opacity: 0.5;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+}
